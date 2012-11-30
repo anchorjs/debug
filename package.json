@@ -1,0 +1,22 @@
+{
+  "name": "debug",
+  "version": "0.0.0",
+  "description": "Debug module for Anchor.js.",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/anchorjs/debug.git"
+  },
+  "bugs": {
+    "url": "http://github.com/anchorjs/debug/issues"
+  },
+  "author": { "name": "Jared Hanson", "email": "jaredhanson@gmail.com", "url": "http://www.jaredhanson.net/" },
+  "licenses": [ {
+    "type": "MIT",
+    "url": "http://www.opensource.org/licenses/MIT" 
+  } ],
+  "main": "base64",
+  "volo": {
+    "dependencies": {
+    }
+  }
+}
