@@ -1,11 +1,11 @@
 (function(root, factory) {
   if (typeof define === 'function' && define.amd) {
     // AMD.
-    if (root.anchorjs && root.anchorjs.debug) {
+    if (root.anchor && root.anchor.debug) {
       // The debug module was loaded via a script tag.  Define the module such
       // that it is the same as the browser global.
       define(function() {
-        return root.anchorjs.debug;
+        return root.anchor.debug;
       });
     } else {
       define(factory);
@@ -15,8 +15,8 @@
     //
     // The debug module is often loaded via a script tag, so that debug settings
     // can be configured prior to module loading.
-    root.anchorjs = root.anchorjs || {};
-    root.anchorjs.debug = factory();
+    root.anchor = root.anchor || {};
+    root.anchor.debug = factory();
   }
 }(this, function() {
   function debug(name) {
