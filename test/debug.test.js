@@ -1,7 +1,5 @@
-define(['debug',
-        'chai'],
-function(debug, chai) {
-  var expect = chai.expect;
+define(['debug'],
+function(debug) {
 
   describe("debug", function() {
 
