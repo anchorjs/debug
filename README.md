@@ -75,4 +75,4 @@ To run headless tests from a terminal using [PhantomJS](http://phantomjs.org/):
 [The MIT License](http://opensource.org/licenses/MIT)
 
 Copyright (c) 2012 Jared Hanson <[http://jaredhanson.net/](http://jaredhanson.net/)>  
-Copyright (c) 2011 TJ Holowaychuk <[mailto:tj@vision-media.ca](tj@vision-media.ca)>
+Copyright (c) 2011 TJ Holowaychuk <[tj@vision-media.ca](mailto:tj@vision-media.ca)>
