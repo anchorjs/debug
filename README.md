@@ -45,6 +45,10 @@ anchor.debug.enable('xmpp');
 require(['app/app']);
 ```
 
+## Implements
+
+This module conforms to the interface exported by [debug](https://github.com/visionmedia/debug).
+
 ## Tests
 
 ##### Browser
@@ -64,10 +68,11 @@ To run headless tests from a terminal using [PhantomJS](http://phantomjs.org/):
 ## Credits
 
   - [Jared Hanson](http://github.com/jaredhanson)
+  - [TJ Holowaychuk](https://github.com/visionmedia)
 
 ## License
 
 [The MIT License](http://opensource.org/licenses/MIT)
 
-Copyright (c) 2012 Jared Hanson <[http://jaredhanson.net/](http://jaredhanson.net/)>
+Copyright (c) 2012 Jared Hanson <[http://jaredhanson.net/](http://jaredhanson.net/)>  
 Copyright (c) 2011 TJ Holowaychuk <[mailto:tj@vision-media.ca](tj@vision-media.ca)>
