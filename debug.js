@@ -1,5 +1,8 @@
 (function(root, factory) {
-  if (typeof define === 'function' && define.amd) {
+  if (typeof module === 'object' && typeof module.exports) {
+    // Node.
+    module.exports = factory();
+  } else if (typeof define === 'function' && define.amd) {
     // AMD.
     if (root.anchor && root.anchor.debug) {
       // The debug module was loaded via a script tag.  Define the module such
