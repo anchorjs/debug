@@ -26,11 +26,7 @@
     "term-canvas": "0.0.x",
     "mocha-phantomjs": "2.x.x",
     "mocha-cloud": "0.1.x",
-    "mocha-cloud-grid-view": "0.0.x",
-    "deamdify": "0.1.x"
-  },
-  "browserify": {
-    "transform": "deamdify"
+    "mocha-cloud-grid-view": "0.0.x"
   },
   "volo": {
     "dependencies": {
