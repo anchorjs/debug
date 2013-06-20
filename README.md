@@ -4,11 +4,13 @@ The debug module provides debugging utilities to the Anchor platform.
 
 ## Install
 
+##### component
+
+    $ component install anchorjs/debug
+
 ##### volo
 
     $ volo add anchorjs/debug
-
-For more information on using volo to manage JavaScript modules, visit [http://volojs.org/](http://volojs.org/).
 
 ## Usage
 
@@ -45,24 +47,29 @@ anchor.debug.enable('xmpp');
 require(['app/app']);
 ```
 
-## Implements
+## Compatibility
+
+##### Implements
 
 This module conforms to the interface exported by [debug](https://github.com/visionmedia/debug).
 
-## Tests
+##### component
 
-##### Browser
+This module uses the [AMD](https://github.com/amdjs/amdjs-api) format.  To
+include in component builds, use [component-amd](https://github.com/jaredhanson/component-amd):
+
+    component build -u component-amd
+
+## Tests
 
 To run tests in a browser, execute the Make target for the desired browser:
 
     $ make test-chrome
     $ make test-firefox
     $ make test-safari
-
-##### PhantomJS
-
-To run headless tests from a terminal using [PhantomJS](http://phantomjs.org/):
-
+    
+Headless tests can be executed directly from a terminal:
+    
     $ make test-phantomjs
 
 ## Credits
