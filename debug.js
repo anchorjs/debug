@@ -1,9 +1,9 @@
 (function(root, factory) {
-  if (typeof module === 'object' && typeof module.exports) {
-    // Node.
+  if (typeof module === 'object' && module.exports) {
+    // Node
     module.exports = factory();
   } else if (typeof define === 'function' && define.amd) {
-    // AMD.
+    // AMD
     if (root.anchor && root.anchor.debug) {
       // The debug module was loaded via a script tag.  Define the module such
       // that it is the same as the browser global.
@@ -14,7 +14,7 @@
       define(factory);
     }
   } else {
-    // Browser global.
+    // Browser global
     //
     // The debug module is often loaded via a script tag, so that debug settings
     // can be configured prior to module loading.
