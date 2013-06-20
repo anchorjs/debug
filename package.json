@@ -1,7 +1,7 @@
 {
   "name": "debug",
   "version": "0.0.1",
-  "description": "Debug module for Anchor.js.",
+  "description": "Debugging utilities.",
   "repository": {
     "type": "git",
     "url": "git://github.com/anchorjs/debug.git"

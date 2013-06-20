@@ -1,0 +1,11 @@
+{
+  "name": "debug",
+  "version": "0.0.1",
+  "description": "Debugging utilities.",
+  "repo": "anchorjs/debug",
+  "main": "debug.js",
+  "scripts": [
+    "debug.js"
+  ],
+  "license": "MIT"
+}
