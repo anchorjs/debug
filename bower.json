@@ -1,0 +1,25 @@
+{
+  "name": "debug",
+  "version": "0.0.0",
+  "description": "Debugging utilities.",
+  "authors": {
+    "name": "Jared Hanson",
+    "email": "jaredhanson@gmail.com",
+    "homepage": "http://www.jaredhanson.net/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/anchorjs/debug.git"
+  },
+  "license": "MIT",
+  "main": "main.js",
+  "ignore": [
+    ".gitignore",
+    ".jshintrc",
+    "Makefile",
+    "README.md",
+    "component.json",
+    "package.json",
+    "test"
+  ]
+}
